@@ -14,6 +14,7 @@ class _AddPostState extends State<AddPost> {
   var titleController=new TextEditingController();
   var contentController=new TextEditingController();
 
+
   _addPost()async{
     var title =titleController.text.toString().trim();
     var content=contentController.text.toString().trim();
